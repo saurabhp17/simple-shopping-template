@@ -1,0 +1,79 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding: 0;
+  margin: 0;
+  background: #fff;
+  color: #1b1b1b; }
+
+.nav-hover:hover {
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: #080427; }
+
+.home-hero {
+  background: #5bd1d7;
+  overflow: hidden;
+  margin: 0 0 40px 0; }
+  .home-hero .content-box {
+    overflow: hidden;
+    padding: 120px 0;
+    margin: 0 auto;
+    max-width: 720px;
+    text-align: center; }
+    .home-hero .content-box h2 {
+      font-size: 3rem;
+      font-weight: 500;
+      color: #fff;
+      margin: 0 0 20px 0; }
+      @media (min-width: 576px) and (max-width: 768px) {
+        .home-hero .content-box h2 {
+          font-size: 2.4rem; } }
+    .home-hero .content-box .form-group {
+      position: relative; }
+    .home-hero .content-box .form-control {
+      height: 60px;
+      font-size: 18px;
+      line-height: 27px; }
+    .home-hero .content-box .btn-green {
+      font-size: 18px;
+      line-height: 27px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 15px 40px;
+      text-transform: uppercase;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0; }
+
+.divider-text {
+  position: relative;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+.divider-text span {
+  padding: 7px;
+  font-size: 12px;
+  position: relative;
+  z-index: 2; }
+
+.divider-text:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  top: 55%;
+  left: 0;
+  z-index: 1; }
+
+.btn-facebook {
+  background-color: #405D9D;
+  color: #fff; }
+
+.btn-twitter {
+  background-color: #42AEEC;
+  color: #fff; }
+
+/*# sourceMappingURL=style.css.map */

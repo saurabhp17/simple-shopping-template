@@ -1,0 +1,90 @@
+.nav-hover:hover{
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: rgb(8, 4, 39);
+    
+}
+
+
+.home-hero {
+	background: $color-main;
+	overflow: hidden;
+	margin: 0 0 40px 0;
+
+
+	.content-box {
+		overflow: hidden;
+		padding: 120px 0;
+		margin: 0 auto;
+		max-width: 720px;
+		text-align: center;
+
+		h2 {
+			font-size: $font-h2;
+			font-weight: $font-bold;
+			color: $color-white;
+			margin: 0 0 20px 0;
+
+			@include responsive(sm) {
+				font-size: 2.4rem;
+			}
+
+		}
+
+		.form-group {
+			position: relative;
+		}
+
+		.form-control {
+			height: 60px;
+			font-size: 18px;
+			line-height: 27px;
+		}
+
+		.btn-green {
+			font-size: 18px;
+			line-height: 27px;
+			position: absolute;
+			top: 0;
+			right: 0;
+			padding: 15px 40px;
+			text-transform: uppercase;
+			@include no-left-radius;
+		}
+
+
+
+	}
+}
+
+.divider-text {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.divider-text span {
+    padding: 7px;
+    font-size: 12px;
+    position: relative;   
+    z-index: 2;
+}
+.divider-text:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 55%;
+    left: 0;
+    z-index: 1;
+}
+
+.btn-facebook {
+    background-color: #405D9D;
+    color: #fff;
+}
+.btn-twitter {
+    background-color: #42AEEC;
+    color: #fff;
+}
+
